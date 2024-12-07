@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrab.css">
+  <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+  <!-- <link rel="stylesheet" href="../css/swiper-bundle.min.css"> -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/css/contact.css">
+</head>
+
+<body>
+  <input type="checkbox" id="hamburger-toggle">
+  <label class="hamburger-wrapper" for="hamburger-toggle">
+    <span class="hamburger"></span>
+  </label>
+  <div class="media_logo">
+    <a href="../index.html">Nada Ahmed</a>
+  </div>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li>
+        <div class="logo">
+          <a href="../index.html">Nada Ahmed</a>
+        </div>
+      </li>
+      <li><a href="About.html"> About Me</a></li>
+      <li><a href="Internships.html"> Internships</a></li>
+      <li><a href="Skills.html">Skills</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="contact mt-5">
+    <div class=" containr m-lg-5 m-sm-5 m-md-5 mt-5">
+      <div class="row vvvv">
+        <!-- <div class="col-6-lg col-md-6 col-sm-12">
+          <div class="row">
+            <div class="col icon face"><a href="#"><i class="fab fa-facebook"></i></a></div>
+            <div class="col icon gith"><a href="#"><i class="fab fa-github"></i></a></div>
+            <div class="col icon linked"><a href="#"><i class="fab fa-linkedin"></i></a></div>
+            <div class="col icon"><i class="fa fa-envelope"></i></div>
+          </div>
+        </div> -->
+        <div class="col-6-lg  col-md-6 col-sm-12">
+          <div class="form">
+            <div class="form2">
+              <div class="row">
+                <div class="col-12 d-flex justify-content-evenly mt-3 p-2 pt-3 pb-3 ">
+                  <label for="">Name</label>
+                  <input type="text" placeholder="Enter Name " name="" id="name">
+                </div>
+                <div class="col-12 d-flex justify-content-evenly mt-3 p-2 pt-3 pb-3 ">
+                  <label for="">Email</label>
+                  <input type="email" placeholder="Enter Email" name="" id="email">
+                </div>
+                <div class="col-12 d-flex justify-content-evenly mt-3 p-2 pt-3 pb-3 ">
+                  <label for="">Message</label>
+                  <textarea placeholder="Message" name="" id="message"></textarea>
+                </div>
+                <div class="col-12 d-flex justify-content-evenly mt-3 p-2 pt-3 pb-3 ">
+                  <button class="abtn" onclick="sendMail()" type="submit">Send To Me</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="social ">
+    <div class=" icon face"><a href="https://www.facebook.com/"><i
+          class="fab fa-facebook"></i></a></div>
+    <div class=" icon gith"><a href="https://github.com/Nada2023"><i class="fab fa-github"></i></a></div>
+    <div class=" icon linked"><a
+        href="https://www.linkedin.com/feed/"><i
+          class="fab fa-linkedin"></i></a></div>
+    <!-- <div class=" icon mail"><a  href="mailto:"><i class="fa fa-envelope"></i></a></div> -->
+  </div>
+  <!-- <script type="text/javascript" src="../js/email.min.js">
+  </script> -->
+  <script type="text/javascript" src="../js/contact.js">
+  </script>
+
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('qGWH4XpCgM3R8Ir7r')
+</script>
+  
+</body>
+
+</html>

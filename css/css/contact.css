@@ -1,0 +1,64 @@
+.contact
+{
+  padding: 20px ;
+  padding-top: 60px ;
+}
+.contact .form{
+  padding: 20px 10px;
+  border: var(--border);
+  border-radius: 25px;
+  box-shadow: 2px 4px 20px  var(--main-color);
+  color: aliceblue;
+  animation: form-shadow 1.5s infinite ease-in-out alternate;
+}
+.vvvv{
+  justify-content: center;
+}
+.contact .form label
+{
+  color: var(--sec-color);
+  flex:1;
+
+}
+.contact .form .form2{
+  padding: 0 20px;
+}
+.contact .form input,.contact .form textarea
+{
+  background-color: transparent !important;
+  border: none;
+  border-bottom: var(--border);
+  flex:2;
+  color: var(--sec-color);
+
+}
+
+.contact .form input:focus,.contact .form textarea:focus
+{
+  background-color: transparent !important;
+  outline: none;
+  color: var(--sec-color);
+}
+
+.contact .form button
+{
+  border: none;
+}
+.contact .form button:hover
+{
+
+}
+
+.icon
+{
+  font-size: 40px;
+  transition: .5s;
+}
+
+@keyframes form-shadow {
+  to{
+  box-shadow: 2px 5px 40px  var(--main-color);
+
+  }
+
+}
