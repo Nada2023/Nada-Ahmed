@@ -3,10 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Farsan&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Sedgwick+Ave&display=swap');
 
 :root {
-  --border: 1px solid rgb(132, 44, 255);
+  /* --border: 1px solid rgb(132, 44, 255);
   --main-color: rgb(47, 8, 88);
   --text-color: rgba(117, 1, 218, 0.993);
   --sec-color: rgb(217, 173, 255);
+  --dark-color: rgb(255, 255, 255); */
+
+  --border: 1px solid rgb(237, 147, 255);
+  --main-color: rgb(137, 8, 133);
+  --text-color: rgba(194, 30, 164, 0.993);
+  --sec-color: rgb(230, 159, 243);
   --dark-color: rgb(255, 255, 255);
 }
 
@@ -239,14 +245,23 @@ border: none;
   background-size: 400% 400%;
   background: linear-gradient(
     60deg,
-    #a533f7,
+    /* #a533f7,
     #843dbe,
     #7604a0,
     #690970,
     #7604a0,
     #610e67,
     #8507b3,
-    #ab6fba
+    #ab6fba */
+
+    #ed33f7,
+    #ed46c6,
+    #ff2fc8,
+    #ff3eb5,
+    #f614c5,
+    #ec23af,
+    #cb42b9,
+    #f08dde
   );
 }
 
@@ -511,7 +526,7 @@ margin-top: 8%;
   position: fixed;
   left:  50%;
   transform: translateX(-50%);
-  bottom:  50px;
+  bottom:  5%;
   background-color:#01171a;
   padding:0 40px ;
   border-radius: 50px;

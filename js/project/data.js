@@ -13,7 +13,7 @@ let prjectsDB = [
   {
     id:2,
     name: "Booking Clone",
-    img: '../../img/booking1.png',
+    img: 'booking1.png',
     imgs: ['booking1.PNG','booking2.PNG','booking3.PNG'],
     tools:['reactsj','Json Server','TailwindCSS','Axios','Validation','Node'],
     desc: `The Booking Clone is a fully-functional, responsive web application that provides an intuitive platform for users to explore and book travel accommodations, flights, or other related services. It is built with modern web development technologies to ensure seamless user experience and efficient performance.`,
@@ -47,7 +47,7 @@ let prjectsDB = [
   {
     id:5,
     name: "ALrowad IT",
-    img: '../../img/ultra1.jpg',
+    img: 'ultra1.jpg',
     imgs: ['ultra1.jpg'],
     tools:["React.JS",  "Bootstrap","Json server","html",  "css"],
     desc:"Website Company",
@@ -58,7 +58,7 @@ let prjectsDB = [
   {
     id:6,
     name: "Admin Dashboard",
-    img: '../../img/Dashboard.jpg',
+    img: 'Dashboard.jpg',
     imgs: ['Dashboard.jpg'],
     tools:["angular",  "tailwind css","Trivia API",'Axios',"html",  "css"],
     desc:"The admin dashboard for a booking clone is designed to provide a seamless and intuitive interface for managing the platform's operations. It includes features for handling bookings, user management, and analytics, ensuring that administrators can maintain smooth functionality and provide excellent service.",
@@ -69,8 +69,8 @@ let prjectsDB = [
 
   {
     id:7,
-    name: "Mug API",
-    img: '../../img/profile.png',
+    name: "Gigts",
+    img: 'profile.png',
     imgs: ['profile.png'],
     tools:["Next js",  "tailwind css"],
     desc:"The website Mug API Full Stack App appears to be part of a full-stack application, likely used to showcase user-related functionalities. Based on the URL structure, it suggests an API-centric design that integrates front-end and back-end operations",
@@ -93,8 +93,8 @@ let prjectsDB = [
   {
     id: 9,
     name: "Candy Cruch",
-    img: '../../img/candy1.png',
-    imgs: ['../../img/candy.webp','../../img/candy1.png'],
+    img: 'candy1.png',
+    imgs: ['candy.webp','candy1.png'],
     tools:["JS",  "HTMl","Css"],
     desc:"Simple app on  JS",
     gith: 'https://github.com/Nada2023/CandyCruch',
@@ -104,8 +104,8 @@ let prjectsDB = [
   {
     id: 10,
     name: "X & O",
-    img: '../../img/X O.png',
-    imgs: ['../../img/X O.png'],
+    img: 'X O.png',
+    imgs: ['X O.png'],
     tools:[  "HTMl","Css","JS","bootstrap"],
     desc:"Simple game on  JS",
     gith: 'https://github.com/Nada2023/X-O-GAME',
@@ -115,8 +115,8 @@ let prjectsDB = [
   {
     id: 11,
     name: "Amazon clone",
-    img: '../../img/amazon.png',
-    imgs: ['../../img/amazon.png','../../img/amazon1.png'],
+    img: 'amazon.png',
+    imgs: ['amazon.png','amazon1.png'],
     tools:[  "HTMl","Css","JS","bootstrap"],
     desc:"An actual implementation of JavaScript and Bootstrap",
     gith: 'https://github.com/Nada2023/ANAA-Shopping',
@@ -128,7 +128,7 @@ let prjectsDB = [
   {
     id: 17,
     name: "Medical Care",
-    img: '../../img/medic1.png',
+    img: 'medic1.png',
     imgs: ['medic1.png','medic2.png','medic3.png','medic4.png','medic5.png'],
     tools:["html",  "css","bootstrap"],
     desc:"Medical application on HTML, CSS and responsive ",
@@ -141,7 +141,7 @@ let prjectsDB = [
   {
     id: 18,
     name: "Coffe Shop",
-    img: '../../img/shop1.png',
+    img: 'shop1.png',
     imgs: ['shop1.png','shop2.png','shop3.png'],
     tools:["html",  "css","bootstrap",'js'],
     desc:"Shop application on flex and grid CSS",
